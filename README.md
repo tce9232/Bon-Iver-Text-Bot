@@ -54,6 +54,8 @@ In order to skip the training step, you can download the models and checkpoint f
 * The [124M model](https://www.dropbox.com/sh/ixpjn1ey1xnpugc/AACnduiAlvHbiW9QY3XKIm1Da?dl=0) goes in the models folder
 * The [run1 model](https://www.dropbox.com/sh/0pzwdql6gewlron/AAAqavneijW6etF_bpD3hYnYa?dl=0) goes in the checkpoint folder
 
+Unzip these folders in their respective folders.
+
 ## Twilio Setup
 
 You'll need to set up a [Twilio](https://www.twilio.com/) account to interact with the text bot. Once you create your free account, create and name a new project.
@@ -78,7 +80,7 @@ This should cause your window to go black with white text. Copy the forwarding a
 
 Go to your Twilio dashboard and click on "Usage". Then your project name, then "Go to Phone Numbers". Click on the hyperlink of your phone number and scroll down to the bottom where it says "Messaging".
 
-Paste the forwarding address in the webhook address for "a message comes in". Save the changes.
+Paste the forwarding address in the webhook address for "a message comes in". Add "/sms" to the end of the address. Save the changes.
 
 ## Test the Connection
 
