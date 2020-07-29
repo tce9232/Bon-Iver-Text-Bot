@@ -7,8 +7,8 @@ Bot Iver learns how to write lyrics just like Justin Vernon by training over the
 Clone this repository into a local folder. In the command line, create a conda environment and activate it.
 
 ```bash
-conda create botiver
-conda activate botiver
+conda create -n botiver
+conda activate -n botiver
 ```
 
 Then install the required libraries in your environment.
