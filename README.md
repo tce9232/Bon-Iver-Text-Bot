@@ -7,14 +7,14 @@ Bot Iver learns how to write lyrics just like Justin Vernon by training over the
 Clone this repository into a local folder. In the command line, create a conda environment and activate it.
 
 ```bash
-conda create -n botiver
+conda create -n botiver pip
 conda activate -n botiver
 ```
 
 Then install the required libraries in your environment.
 
 ```bash
- conda install --file requirements.txt 
+ pip install -r requirements.txt
 ```
 
 ## Model Training
@@ -51,10 +51,10 @@ The training could take a while, but will ultimately result in model files in bo
 ### Using my model:
 
 In order to skip the training step, you can download the models and checkpoint folders directly from these Dropbox folders:
-* The [124M model](https://www.dropbox.com/sh/ixpjn1ey1xnpugc/AACnduiAlvHbiW9QY3XKIm1Da?dl=0) goes in the models folder
-* The [run1 model](https://www.dropbox.com/sh/0pzwdql6gewlron/AAAqavneijW6etF_bpD3hYnYa?dl=0) goes in the checkpoint folder
+* The [124M model](dl.dropboxusercontent.com/sh/ixpjn1ey1xnpugc/AACnduiAlvHbiW9QY3XKIm1Da?dl=0) goes in the models folder
+* The [run1 model](dl.dropboxusercontent.com/sh/0pzwdql6gewlron/AAAqavneijW6etF_bpD3hYnYa?dl=0) goes in the checkpoint folder
 
-Unzip these folders in their respective folders.
+Unzip these in their respective folders.
 
 ## Twilio Setup
 
