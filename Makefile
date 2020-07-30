@@ -7,4 +7,4 @@ server:
 	flask run --port 8080
 
 ngrok:
-	ngrok http 8080
+	./ngrok http 8080
