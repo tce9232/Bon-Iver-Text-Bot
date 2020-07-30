@@ -7,7 +7,7 @@ Bot Iver learns how to write lyrics just like Justin Vernon by training over the
 Clone this repository into a local folder. In the command line, create a conda environment and activate it.
 
 ```bash
-conda create -n botiver pip
+conda create -n botiver python=3.7 anaconda
 conda activate -n botiver
 ```
 
@@ -15,6 +15,18 @@ Then install the required libraries in your environment.
 
 ```bash
  pip install -r requirements.txt
+```
+
+Since gpt-2, the language model we'll be training with only works with older versions of tensorflow, and pip doesn't support them, we need to install that separately with
+
+```bash
+ conda install tensorflow==1.15
+```
+
+Finally, we need to install ngrok as well to set up our secure tunnel for our chatbot. To do this we need to execute
+
+```bash
+ brew cask install ngrok
 ```
 
 ## Model Training
@@ -73,7 +85,7 @@ make server
 Then open up another command line and run
 
 ```bash
-make ngrok
+ngrok http 8080
 ```
 
 This should cause your window to go black with white text. Copy the forwarding address from here (it should end in ngrok.io). We need to tell Twilio to forward messages to this address. 
