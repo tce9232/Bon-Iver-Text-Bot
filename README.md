@@ -51,8 +51,8 @@ The training could take a while, but will ultimately result in model files in bo
 ### Using my model:
 
 In order to skip the training step, you can download the models and checkpoint folders directly from these Dropbox folders:
-* The [124M model](dl.dropboxusercontent.com/sh/ixpjn1ey1xnpugc/AACnduiAlvHbiW9QY3XKIm1Da?dl=0) goes in the models folder
-* The [run1 model](dl.dropboxusercontent.com/sh/0pzwdql6gewlron/AAAqavneijW6etF_bpD3hYnYa?dl=0) goes in the checkpoint folder
+* The [124M model](https://dropbox.com/sh/ixpjn1ey1xnpugc/AACnduiAlvHbiW9QY3XKIm1Da?dl=0) goes in the models folder
+* The [run1 model](https://dropbox.com/sh/0pzwdql6gewlron/AAAqavneijW6etF_bpD3hYnYa?dl=0) goes in the checkpoint folder
 
 Unzip these in their respective folders.
 
